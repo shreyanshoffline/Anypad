@@ -36,7 +36,8 @@ These are some screenshots of the PCB, Schematic, Case, And complete build.
 
 ## 🧰 Bill of Materials (BOM)
 
-@@ -41,15 +41,15 @@
+| Component | Qty | Description |
+| :--- | :---: | :--- |
 | EC11 Rotary Encoder | 1 | With push-button functionality |
 | Encoder Knob | 1 | Fits over the EC11 shaft |
 | 0.96" I2C OLED Display | 1 | Standard 4-pin breakout (GND, VCC, SCL, SDA) |
