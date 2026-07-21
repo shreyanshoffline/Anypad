@@ -28,11 +28,22 @@ These are some screenshots of the PCB, Schematic, Case, And Complete Build.
 ---
 
 ## ✨ Features
-* **Muscle-Memory Layout:** 9 mechanical switches arranged with realistic desktop stagger so you don't miss inputs mid-game.
-* **The Brain:** Powered by the Seeed Studio XIAO RP2040.
-* **The Knob:** An EC11 Rotary Encoder for switching modes and for specific reasons in each mode scrolling inventory hotbars in games, or adjusting system volume in study mode.
+* **Muscle-Memory Layout:** 9 mechanical switches arranged with realistic desktop stagger so you don't miss inputs mid-game or while locked in during work.
+* **The Brain:** Powered by The Seeed Studio XIAO RP2040 Microcontroller. Small, But Mighty
 * **The Screen:** A 0.91" OLED display to give visual feedback on your current active profile (Gaming 🎮 / Office 🏢 / Study ✏️).
-* **RGB Everything:** 17 total SK6812 MINI-E addressable LEDs (9 per-key backlights + 8 corner underglows for a seamless desk halo effect).
+* **The Knob** Instead of using keys to switch inventory slots, or raise and reduce volume the knob allows you to do more while taking less space.
+
+## ✅ Benefits
+* **Light, Small, Fast:** Instead of carrying an entire keyboard all you need is a mouse and The Anypad. Easily portable and gives you more desk space.
+* **Focus, Study, Game:** Switch between focus modes in the swift turn of a knob. Quickly immerse your self in the gaming world or into optimized work and study shortcuts
+* **RGB Everything:** 17 total SK6812 MINI-E addressable LEDs (9 per-key backlights + 8 corner underglows for a seamless desk halo effect). Instantly turns up your vibe
+* **Ergonomics Over Symmetry:** The Anypad prioritizes hand comfort over artificial symmetry. While the layout might look like an unusual angle at first glance, it naturally aligns with where your fingers want to rest during long gaming sessions.
+
+## </> Firmware Overview
+The Anypad uses QMK for everything
+
+Via will be added soon for instant flashing and customization
+
 
 ## 🧰 Bill of Materials (BOM)
 
@@ -42,7 +53,7 @@ These are some screenshots of the PCB, Schematic, Case, And Complete Build.
 | EC11 Rotary Encoder | 1 | Rotating knob, with push-button functionality |
 | Encoder Knob | 1 | Fits over the EC11 shaft |
 | 0.91" OLED Display | 1 | Standard 4-pin breakout (GND, VCC, SCL, SDA) |
-| Reverse Mount SK6812 MINI-E LEDs | 17 | 9 for switches, 8 for bottom underglow |
+| Reverse Mount SK6812 MINI-E LEDs | 17 | 9 for Keys, 8 for bottom underglow |
 | Through-Hole 1N4148 Diodes | 9 | For the 3x3 anti-ghosting matrix |
 | Custom PCB (In /PCB)| 1 | Holds and connects all electrical components |
 | Custom 3D Printed Case (In /Production)| 1 | Top plate + bottom enclosure |
@@ -51,13 +62,13 @@ These are some screenshots of the PCB, Schematic, Case, And Complete Build.
 | M3x16mm screws | 4 | Tiny Screws That hold everything together |
 | M3x5mx4mm Brass Heatset Inserts | 4 | Brass treads that makes the case re-openable |
 
-You may also need a solder, soldering iron and other soldering accesories for completing the build
+You may also need a solder, soldering iron and other soldering accessories for completing the build
 
 ## 🧠 Behind the Hardware (The Wiring Matrix)
 
 To make everything fit on the XIAO's extremely limited edge pins, the 9 keys are wired into a standard 3x3 diode matrix (using only 6 pins). 
 
-This is a basic efficient layout that frees up the remaining pins perfectly for the OLED (2 pins), the Rotary Encoder (2 pins), and a single data line chained through all 13 NeoPixels without needing to resort to hidden pads or larger microcontrollers. 
+This is a basic efficient layout that frees up the remaining pins perfectly for the OLED (2 pins), the Rotary Encoder (2 pins), and a single data line chained through all 17 LEDs without needing to resort to hidden pads or larger microcontrollers. 
 
 ---
-*Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for Hack Club.*
+*Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for The Stardance Challenge by Hack Club, NASA, AMD, and Github.*
