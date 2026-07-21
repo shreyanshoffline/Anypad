@@ -1,4 +1,4 @@
-# the_anypad
+# The Anypad
 
 ![the_anypad](imgur.com image replace me!)
 
