@@ -10,6 +10,10 @@ Most macropads use a rigid ortholinear grid, which is terrible for gaming. If yo
 
 **The Anypad** fixes this. It features a true QWERTY-accurate 0.25U stagger for the WASD movement cluster, a dedicated thumb spacebar, and stacked pinky keys for Shift/Ctrl. Add an OLED screen, a rotary encoder, and an aggressive amount of RGB, and you have the ultimate mini-pad designed to seamlessly swap between gaming, office, and study modes.
 
+>[!CAUTION]
+>Below will be very revoulutionary designs and technology that is game-changing, literally
+
+
 ## 📸 The Screenshots
 
 These are some screenshots of the PCB, Schematic, Case, And Complete Build.
@@ -24,7 +28,9 @@ These are some screenshots of the PCB, Schematic, Case, And Complete Build.
 
 ### PCB Layout
 ![PCB Layout](./assets/PCB.png)
-*(Check out the custom silkscreen art on the right!)*
+>[!NOTE]
+>Check out the silkscreen art
+
 
 ### CAD in Fusion360
 ![Case Assembly](./assets/CAD.png)
@@ -46,7 +52,8 @@ These are some screenshots of the PCB, Schematic, Case, And Complete Build.
 ## </> Firmware Overview
 The Anypad uses QMK for everything
 
-Via will be added soon for instant flashing and customization
+>[!NOTE]
+> Via will be added soon for instant flashing and customization
 
 
 ## 🧰 Bill of Materials (BOM)
@@ -65,8 +72,11 @@ Via will be added soon for instant flashing and customization
 | MX-Style Keyswitches | 9 | The Nice Clicky Kind |
 | M3x16mm screws | 4 | Tiny Screws That hold everything together |
 | M3x5mx4mm Brass Heatset Inserts | 4 | Brass treads that makes the case re-openable |
+>[!NOTE]
+> You may also need a solder, soldering iron and other soldering accessories for completing the build
 
-You may also need a solder, soldering iron and other soldering accessories for completing the build
+>[!TIP]
+> You can get all the materials for free or bundled from the Hackpad Kit by Hack club. 
 
 ## 🧠 Behind the Hardware (The Wiring Matrix)
 
@@ -75,7 +85,7 @@ To make everything fit on the XIAO's extremely limited edge pins, the 9 keys are
 This is a basic efficient layout that frees up the remaining pins perfectly for the OLED (2 pins), the Rotary Encoder (2 pins), and a single data line chained through all 17 LEDs without needing to resort to hidden pads or larger microcontrollers. 
 
 ---
-*Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for The Stardance Challenge by Hack Club, NASA, AMD, and Github.
+> Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for The Stardance Challenge by Hack Club, NASA, AMD, and Github.
 
 <img width="300" height="100" alt="unnamed" src="https://github.com/user-attachments/assets/c750a657-1681-4a9a-9531-596c27d20906" />
 
