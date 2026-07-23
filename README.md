@@ -2,6 +2,10 @@
 
 A custom left-hand gaming macropad that *actually* respects your muscle memory. Built for the Hack Club Hackpad program.
 
+
+<img width="250" height="150" alt="flag-orpheus-left" src="https://github.com/user-attachments/assets/b96ecd03-cc25-4f2b-9c63-d37223a26b26" />
+
+
 Most macropads use a rigid ortholinear grid, which is terrible for gaming. If you try to play Minecraft, Fortnite, or Roblox on a square grid, your fingers get confused because normal keyboards have a staggered layout. 
 
 **The Anypad** fixes this. It features a true QWERTY-accurate 0.25U stagger for the WASD movement cluster, a dedicated thumb spacebar, and stacked pinky keys for Shift/Ctrl. Add an OLED screen, a rotary encoder, and an aggressive amount of RGB, and you have the ultimate mini-pad designed to seamlessly swap between gaming, office, and study modes.
@@ -71,4 +75,7 @@ To make everything fit on the XIAO's extremely limited edge pins, the 9 keys are
 This is a basic efficient layout that frees up the remaining pins perfectly for the OLED (2 pins), the Rotary Encoder (2 pins), and a single data line chained through all 17 LEDs without needing to resort to hidden pads or larger microcontrollers. 
 
 ---
-*Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for The Stardance Challenge by Hack Club, NASA, AMD, and Github.*
+*Designed by [shreyanshoffline](https://github.com/shreyanshoffline) for The Stardance Challenge by Hack Club, NASA, AMD, and Github.
+
+<img width="526" height="184" alt="unnamed" src="https://github.com/user-attachments/assets/c750a657-1681-4a9a-9531-596c27d20906" />
+
